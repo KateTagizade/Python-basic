@@ -12,6 +12,7 @@ def power_numbers(*numbers):
     <<< [1, 4, 25, 49]
     """
     return (number ** 2 for number in numbers )
+    print ("zhest")
 
 # filter types
 ODD = "odd"
